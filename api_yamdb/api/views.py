@@ -13,7 +13,6 @@ from reviews.models import Category, Genre, Review, Title
 from users.models import User
 
 
-# delete
 class UserSignupView(CreateAPIView):
     model = User
     permission_classes = [rest_permissions.AllowAny]
