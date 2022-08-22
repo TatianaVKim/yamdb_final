@@ -1,8 +1,9 @@
-# yamdb_final
+# CI и CD проекта api_yamdb
 
 ## Описание
 
-YaMDb - отправляем проект в контейнере
+CI и CD проекта api_yamdb
+
 [![Actions Status](https://github.com/TatianaVKim/yamdb_final/workflows/Django-app%20workflow/badge.svg)](https://github.com/TatianaVKim/yamdb_final/actions)
 
 ## Технологии
