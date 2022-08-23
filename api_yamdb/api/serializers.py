@@ -121,8 +121,8 @@ class TitleListSerializer(serializers.ModelSerializer):
     def get_rating(self, obj):
         rating_agv = obj.reviews.aggregate(Avg('score'))['score__avg']
         if isinstance(rating_agv, float):
-            rating = round(rating_agv)
-            return rating
+            return round(rating_agv)
+        return 'Нет данных'
 
 
 class TitleSerializer(serializers.ModelSerializer):
