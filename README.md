@@ -4,7 +4,7 @@
 
 CI и CD проекта api_yamdb
 
-[![Actions Status](https://github.com/TatianaVKim/yamdb_final/workflows/Django-app%20workflow/badge.svg)](https://github.com/TatianaVKim/yamdb_final/actions)
+[![Django-app workflow](https://github.com/TatianaVKim/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/TatianaVKim/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 ## Технологии
 
