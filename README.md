@@ -28,7 +28,7 @@ docker build -t <название_образа>
 
 Запустите docker-compose, выполните сборку и запустите контейнеры:
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 Выполните миграции:
